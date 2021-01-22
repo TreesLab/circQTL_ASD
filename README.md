@@ -1,12 +1,14 @@
 ### Trans-genetic effects of circular RNA expression quantitative trait loci and potential causal mechanisms in autism
 
 ---
+
 Te-Lun Mai, Chia-Ying Chen, Tai-Wei Chiang, and Trees-Juen Chuang* (2021) "Trans-genetic effects of circular RNA expression quantitative trait loci and potential causal mechanisms in autism", to be submitted.
+
 ---
 
 The scripts used in this study include three parts:
 
-**1. Identification of eQTL/circQTL from expression profiles (R code)**
+#### 1. Identification of eQTL/circQTL from expression profiles (R code)
 
 One R script: QTL_sample.R
 
@@ -22,7 +24,7 @@ Output:
 
     out_eqtl.csv
 
-**2. Examination of mediation effects of SNP-circRNA-gene axes (R code)**
+#### 2. Examination of mediation effects of SNP-circRNA-gene axes (R code)
 
 One R script: Mediation_sample.R
 
@@ -37,7 +39,7 @@ Output:
 
     out.mediation.csv
 
-**3. Examination of causal inference effects of SNP-gene-Trait axes (R code)**
+#### 3. Examination of causal inference effects of SNP-gene-Trait axes (R code)
 
 One R script: CIT_sample.R
 
